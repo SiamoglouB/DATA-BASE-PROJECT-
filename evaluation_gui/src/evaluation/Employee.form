@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="evaluation.Employee">
+  <grid id="27dc6" binding="panelEmployee" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="652" height="469"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="e0587" binding="tabbedPaneEmployee">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="6933a" binding="panelPersonal" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Personal"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a5689" class="javax.swing.JTextField" binding="textFieldEmail">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <minimumSize width="150" height="30"/>
+                  <preferredSize width="150" height="30"/>
+                </properties>
+              </component>
+              <component id="76882" class="javax.swing.JTextField" binding="textFieldName">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <minimumSize width="150" height="30"/>
+                  <preferredSize width="150" height="30"/>
+                </properties>
+              </component>
+              <component id="84760" class="javax.swing.JTextField" binding="textFieldSurname">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <minimumSize width="150" height="30"/>
+                  <preferredSize width="150" height="30"/>
+                </properties>
+              </component>
+              <component id="fc705" class="javax.swing.JTextField" binding="textFieldUsername">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <minimumSize width="150" height="30"/>
+                  <preferredSize width="150" height="30"/>
+                </properties>
+              </component>
+              <component id="b532d" class="javax.swing.JPasswordField" binding="passwordFieldPassword">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <minimumSize width="150" height="30"/>
+                  <preferredSize width="150" height="30"/>
+                </properties>
+              </component>
+              <component id="faa70" class="javax.swing.JLabel" binding="labelUsername">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Username:"/>
+                </properties>
+              </component>
+              <component id="699da" class="javax.swing.JLabel" binding="labelName">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Name:"/>
+                </properties>
+              </component>
+              <component id="f1744" class="javax.swing.JLabel" binding="labelEmail">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Email:"/>
+                </properties>
+              </component>
+              <component id="8bb38" class="javax.swing.JLabel" binding="labelSurname">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Surname:"/>
+                </properties>
+              </component>
+              <scrollpane id="501a6" binding="scrollPaneAwards">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <minimumSize width="400" height="90"/>
+                </properties>
+                <border type="none" title="Awards"/>
+                <children>
+                  <component id="8e598" class="javax.swing.JTextArea" binding="textAreaAwards">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="9c1f9" binding="scrollPaneCertificates">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <minimumSize width="400" height="90"/>
+                </properties>
+                <border type="none" title="Certificates"/>
+                <children>
+                  <component id="251e3" class="javax.swing.JTextArea" binding="textAreaCertificates">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="53b0c" binding="scrollPaneReferences">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <minimumSize width="400" height="90"/>
+                </properties>
+                <border type="none" title="References"/>
+                <children>
+                  <component id="6e853" class="javax.swing.JTextArea" binding="textAreaReferences">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="edeb7" binding="scrollPaneBio">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties/>
+                <border type="none" title="Bio"/>
+                <children>
+                  <component id="d7596" class="javax.swing.JTextArea" binding="textAreaBio">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="7128f" class="javax.swing.JTextField" binding="textFieldCompany">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <minimumSize width="150" height="30"/>
+                  <preferredSize width="150" height="30"/>
+                </properties>
+              </component>
+              <component id="28d5a" class="javax.swing.JButton" binding="buttonUpdate">
+                <constraints>
+                  <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Update"/>
+                </properties>
+              </component>
+              <hspacer id="ec68c">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="0.0"/>
+                </constraints>
+              </hspacer>
+              <component id="ac526" class="javax.swing.JLabel" binding="labelCompany">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Company:"/>
+                </properties>
+              </component>
+              <component id="11af4" class="javax.swing.JLabel" binding="labelPassword">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="Password:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="671a6" binding="panelRequests" layout-manager="GridBagLayout">
+            <constraints>
+              <tabbedpane title="Requests"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="57f13" binding="panelRequestsOpen" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="b388a" binding="scrollPaneRequestsOpen">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <minimumSize width="560" height="120"/>
+                    </properties>
+                    <border type="none" title="Open"/>
+                    <children>
+                      <component id="20851" class="javax.swing.JTable" binding="tableRequestsOpen">
+                        <constraints/>
+                        <properties>
+                          <fillsViewportHeight value="true"/>
+                          <preferredScrollableViewportSize width="450" height="200"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="2efb1" class="javax.swing.JButton" binding="buttonRequestsSubmit">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Submit"/>
+                    </properties>
+                  </component>
+                  <hspacer id="2b5fc">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
+                    </constraints>
+                  </hspacer>
+                </children>
+              </grid>
+              <grid id="46abc" binding="panelRequestsInProgress" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="b5925" binding="scrollPaneRequestsInProgress">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <minimumSize width="560" height="120"/>
+                    </properties>
+                    <border type="none" title="In Progress"/>
+                    <children>
+                      <component id="3ace4" class="javax.swing.JTable" binding="tableRequestsInProgress">
+                        <constraints/>
+                        <properties>
+                          <fillsViewportHeight value="true"/>
+                          <preferredScrollableViewportSize width="450" height="200"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="73f8e" class="javax.swing.JButton" binding="buttonRequestDelete">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Delete"/>
+                    </properties>
+                  </component>
+                  <hspacer id="7109c">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="0.0"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="b6c68" class="javax.swing.JButton" binding="buttonRequestUpdate">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="0.0" weighty="0.0"/>
+                    </constraints>
+                    <properties>
+                      <text value="Update"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <scrollpane id="f08ac" binding="scrollPaneRequestsFinalized">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <minimumSize width="560" height="120"/>
+                </properties>
+                <border type="none" title="Finalized"/>
+                <children>
+                  <component id="a537a" class="javax.swing.JTable" binding="tableRequestsFinalized">
+                    <constraints/>
+                    <properties>
+                      <fillsViewportHeight value="true"/>
+                      <preferredScrollableViewportSize width="450" height="200"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
